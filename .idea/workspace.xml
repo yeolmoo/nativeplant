@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04a7c9d7-2c48-4748-a49e-5df9e141671e" name="Default Changelist" comment="added the recipes pages">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/summer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/summer.html" afterDir="false" />
+    <list default="true" id="04a7c9d7-2c48-4748-a49e-5df9e141671e" name="Default Changelist" comment="summer title">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/map.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731259443823</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="summer title">
+      <created>1731259543295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731259543295</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added the recipes pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the recipes pages" />
+    <MESSAGE value="summer title" />
+    <option name="LAST_COMMIT_MESSAGE" value="summer title" />
   </component>
 </project>
