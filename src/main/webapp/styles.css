@@ -1,29 +1,12 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f7f9fc;
     color: #333;
-    margin: 0;
-    padding-top: 0; /* Remove top padding */
-}
-
-
-section input[type="text"] {
-    margin: 10px;
-    padding: 5px;
-    width: 200px;
-}
-
-label {
-    margin-right: 10px;
-}
-
-.recipe {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes full viewport height */
 }
 
 header {
@@ -31,22 +14,26 @@ header {
     color: white;
     text-align: center;
     padding: 20px 0;
+    margin-top: 60px; /* Adds space below fixed navbar */
+    flex-shrink: 0; /* Prevent header from shrinking */
 }
 
 nav {
+    display: flex;
+    justify-content: center;
+    background-color: #264653;
+    padding: 10px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #264653;
-    padding: 10px;
 }
 
 nav ul {
-    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 nav li {
@@ -58,7 +45,6 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    padding: 5px;
 }
 
 nav li:hover > ul {
@@ -68,11 +54,12 @@ nav li:hover > ul {
 nav ul ul {
     display: none;
     position: absolute;
+    top: 100%;
+    left: 0;
     background-color: #264653;
     padding: 10px;
     border-radius: 5px;
-    top: 100%;
-    left: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav ul ul li {
@@ -80,44 +67,16 @@ nav ul ul li {
 }
 
 section {
-    padding: 40px;
+    padding: 80px 40px; /* Adjust for fixed nav */
     text-align: center;
+    flex-grow: 1; /* Allow content section to expand */
 }
 
 footer {
     text-align: center;
+    padding: 10px 0;
     background-color: #264653;
     color: white;
-    padding: 15px; /* Increase padding */
-    position: relative;
-    font-size: 14px; /* Make the text a bit bigger */
-}
-
-section {
-    padding: 20px; /* Adjust padding */
-    max-width: 600px; /* Narrower content width */
-    margin: 0 auto;
-    text-align: justify;
-    line-height: 1.6; /* Optional: Adjust for readability */
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f7f9fc;
-    color: #333;
-    margin: 0;
-    padding-top: 60px;
-    min-height: 100vh; /* Ensure the body is at least 100vh */
-    position: relative;
-}
-
-footer {
-    text-align: center;
-    background-color: #264653;
-    color: white;
-    padding: 10px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     font-size: 12px;
+    flex-shrink: 0; /* Prevent footer from shrinking */
 }
