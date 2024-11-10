@@ -3,8 +3,9 @@ body {
     background-color: #f7f9fc;
     color: #333;
     margin: 0;
-    padding-top: 60px;
+    padding-top: 0; /* Remove top padding */
 }
+
 
 section input[type="text"] {
     margin: 10px;
@@ -87,13 +88,36 @@ footer {
     text-align: center;
     background-color: #264653;
     color: white;
-    padding: 10px;
+    padding: 15px; /* Increase padding */
     position: relative;
-    font-size: 12px;
+    font-size: 14px; /* Make the text a bit bigger */
 }
+
 section {
-    max-width: 800px;
+    padding: 20px; /* Adjust padding */
+    max-width: 600px; /* Narrower content width */
     margin: 0 auto;
     text-align: justify;
     line-height: 1.6; /* Optional: Adjust for readability */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding-top: 60px;
+    min-height: 100vh; /* Ensure the body is at least 100vh */
+    position: relative;
+}
+
+footer {
+    text-align: center;
+    background-color: #264653;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
 }
