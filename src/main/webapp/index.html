@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Native Plants of Canada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Native Plants of Canada</h1>
+    </header>
+
+    <section>
+        <h2>Interactive Map of Canada</h2>
+        <img src="canada-map.jpg" alt="Map of Canada" usemap="#canada-map" id="map-image">
+        <map name="canada-map">
+            <!-- Define clickable areas on the map -->
+            <area shape="poly" coords="100,150,200,150,200,250,100,250" href="zone1.html" alt="Zone 1">
+            <area shape="poly" coords="300,100,400,100,400,200,300,200" href="zone2.html" alt="Zone 2">
+            <!-- Add more areas for different regions as needed -->
+        </map>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
