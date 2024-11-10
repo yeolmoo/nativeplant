@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04a7c9d7-2c48-4748-a49e-5df9e141671e" name="Default Changelist" comment="fixed the bullets for the recipes">
+    <list default="true" id="04a7c9d7-2c48-4748-a49e-5df9e141671e" name="Default Changelist" comment="added the game which prints hello world over complicatedly">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731261251520</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added the game which prints hello world over complicatedly">
+      <created>1731262656064</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731262656065</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +158,7 @@
     <MESSAGE value="fixed the footer on main page" />
     <MESSAGE value="fixed the heading on the main page" />
     <MESSAGE value="fixed the bullets for the recipes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed the bullets for the recipes" />
+    <MESSAGE value="added the game which prints hello world over complicatedly" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the game which prints hello world over complicatedly" />
   </component>
 </project>
