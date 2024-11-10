@@ -1,24 +1,93 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
     margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
+    padding-top: 60px;
+}
+
+section input[type="text"] {
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.recipe {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header {
-    background-color: #2e8b57;
+    background-color: #2a9d8f;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #264653;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #264653;
+    padding: 10px;
+    border-radius: 5px;
+    top: 100%;
+    left: 0;
+}
+
+nav ul ul li {
+    margin: 5px 0;
 }
 
 section {
+    padding: 40px;
     text-align: center;
-    margin: 20px;
 }
 
-#map-image {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #ccc;
+footer {
+    text-align: center;
+    background-color: #264653;
+    color: white;
+    padding: 10px;
+    position: relative;
+    font-size: 12px;
 }

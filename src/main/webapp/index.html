@@ -5,23 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Native Plants of Canada</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc;
+            color: #333;
+        }
+
+        header {
+            background-color: #2a9d8f;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #264653;
+            padding: 10px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 15px;
+            position: relative;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        nav li:hover > ul {
+            display: block;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #264653;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul ul li {
+            margin: 5px 0;
+        }
+
+        section {
+            padding: 80px 40px; /* Adjust for fixed nav */
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #264653;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Native Plants of Canada</h1>
     </header>
 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="indoor.html">Indoor</a></li>
+            <li>
+                <a href="#">Season</a>
+                <ul>
+                    <li><a href="spring.html">Spring</a></li>
+                    <li><a href="summer.html">Summer</a></li>
+                    <li><a href="fall.html">Fall</a></li>
+                    <li><a href="winter.html">Winter</a></li>
+                </ul>
+            </li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="community.html">Community</a></li>
+        </ul>
+    </nav>
+
     <section>
-        <h2>Interactive Map of Canada</h2>
-        <img src="canada-map.jpg" alt="Map of Canada" usemap="#canada-map" id="map-image">
-        <map name="canada-map">
-            <!-- Define clickable areas on the map -->
-            <area shape="poly" coords="100,150,200,150,200,250,100,250" href="zone1.html" alt="Zone 1">
-            <area shape="poly" coords="300,100,400,100,400,200,300,200" href="zone2.html" alt="Zone 2">
-            <!-- Add more areas for different regions as needed -->
-        </map>
+        <h2>Welcome to Native Plants of Canada</h2>
+        <p>Explore the native plants and their uses, learn about seasonal gardening, recipes, and join the community.</p>
     </section>
 
-    <script src="main.js"></script>
+    <footer>
+        <p style="font-size: 12px;">&copy; 2024 Native Plants of Canada. All rights reserved.</p>
+    </footer>
 </body>
 </html>

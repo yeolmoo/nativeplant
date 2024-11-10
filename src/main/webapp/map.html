@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Map of Canada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="indoor.html">Indoor</a></li>
+            <li>
+                <a href="#">Season</a>
+                <ul>
+                    <li><a href="spring.html">Spring</a></li>
+                    <li><a href="summer.html">Summer</a></li>
+                    <li><a href="fall.html">Fall</a></li>
+                    <li><a href="winter.html">Winter</a></li>
+                </ul>
+            </li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="community.html">Community</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Interactive Map of Canada</h1>
+    </header>
+
+    <section>
+        <h2>Explore the Zones</h2>
+        <img src="canada-map.png" alt="Map of Canada" usemap="#image-map">
+
+        <map name="image-map">
+            <area target="_self" alt="z1" title="Zone 1" href="abcz1.html" coords="296,497,397,523" shape="rect">
+            <area target="_self" alt="z2" title="Zone 2" href="abcz2.html" coords="378,495,326,457" shape="rect">
+            <area target="_self" alt="z3" title="Zone 3" href="abcz3.html" coords="324,403,461,453" shape="rect">
+            <area target="_self" alt="z4" title="Zone 4" href="abcz4.html" coords="267,335,431,399" shape="rect">
+            <area target="_self" alt="z5" title="Zone 5" href="abcz5.html" coords="35,329,377,282" shape="rect">
+            <area target="_self" alt="z6" title="Zone 6" href="abcz6.html" coords="374,273,16,203" shape="rect">
+        </map>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Native Plants of Canada. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="indoor.html">Indoor</a></li>
+            <li>
+                <a href="#">Season</a>
+                <ul>
+                    <li><a href="spring.html">Spring</a></li>
+                    <li><a href="summer.html">Summer</a></li>
+                    <li><a href="fall.html">Fall</a></li>
+                    <li><a href="winter.html">Winter</a></li>
+                </ul>
+            </li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="community.html">Community</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Recipes</h1>
+    </header>
+
+    <section>
+        <div>
+            <input type="text" id="searchBar" placeholder="Search recipes..." onkeyup="filterRecipes()">
+            <label>
+                <input type="checkbox" id="vegetarianFilter" onchange="filterRecipes()"> Vegetarian
+            </label>
+            <label>
+                <input type="checkbox" id="easyFilter" onchange="filterRecipes()"> Easy
+            </label>
+        </div>
+        <div id="recipeList">
+            <div class="recipe" data-tags="vegetarian easy">
+                <h3>Preserving Jar</h3>
+                <p>Details about the preserving jar recipe...</p>
+            </div>
+            <div class="recipe" data-tags="easy">
+                <h3>Jam</h3>
+                <p>Details about the jam recipe...</p>
+            </div>
+            <div class="recipe" data-tags="vegetarian">
+                <h3>Sandwich</h3>
+                <p>Details about the sandwich recipe...</p>
+            </div>
+            <div class="recipe" data-tags="">
+                <h3>Another Recipe</h3>
+                <p>Details about another recipe...</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Native Plants of Canada. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function filterRecipes() {
+            const searchQuery = document.getElementById('searchBar').value.toLowerCase();
+            const isVegetarian = document.getElementById('vegetarianFilter').checked;
+            const isEasy = document.getElementById('easyFilter').checked;
+
+            const recipes = document.querySelectorAll('.recipe');
+
+            recipes.forEach(recipe => {
+                const recipeTitle = recipe.querySelector('h3').innerText.toLowerCase();
+                const tags = recipe.getAttribute('data-tags').split(' ');
+
+                let showRecipe = true;
+
+                // Check if it matches the search query
+                if (searchQuery && !recipeTitle.includes(searchQuery)) {
+                    showRecipe = false;
+                }
+
+                // Check vegetarian filter
+                if (isVegetarian && !tags.includes('vegetarian')) {
+                    showRecipe = false;
+                }
+
+                // Check easy filter
+                if (isEasy && !tags.includes('easy')) {
+                    showRecipe = false;
+                }
+
+                recipe.style.display = showRecipe ? 'block' : 'none';
+            });
+        }
+    </script>
+</body>
+</html>
