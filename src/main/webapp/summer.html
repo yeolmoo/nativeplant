@@ -1,10 +1,120 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Summer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Gardening </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            margin: 0;
+            padding-top: 60px;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #264653;
+            padding: 10px;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        header {
+            text-align: center;
+            background-color: #2a9d8f;
+            color: white;
+            padding: 20px 0;
+        }
+        .content-section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section-header {
+            color: #2a9d8f;
+            margin-bottom: 15px;
+        }
+        .content-section p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #264653;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="indoor.html">Indoor</a></li>
+            <li>
+                <a href="#">Season</a>
+                <ul>
+                    <li><a href="spring.html">Spring</a></li>
+                    <li><a href="summer.html">Summer</a></li>
+                    <li><a href="fall.html">Fall</a></li>
+                    <li><a href="winter.html">Winter</a></li>
+                </ul>
+            </li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="community.html">Community</a></li>
+        </ul>
+    </nav>
 
+    <header>
+        <h1>Summer Gardening Tips</h1>
+    </header>
+
+    <section class="content-section">
+        <h2 class="section-header">1. Watering Strategies for Hot Weather</h2>
+        <p>Water your plants early in the morning or late in the afternoon to minimize water loss due to evaporation. Mulching can help retain moisture in the soil and keep roots cool.</p>
+
+        <h2 class="section-header">2. Best Native Plants for Summer Growth</h2>
+        <p>Choose sun-loving native plants such as Black-eyed Susan, Purple Coneflower, and Wild Bergamot. These plants thrive in summer conditions and support local pollinators.</p>
+
+        <h2 class="section-header">3. Natural Pest Control</h2>
+        <p>Use natural pest control methods such as neem oil or insecticidal soap to protect your plants from common summer pests. Planting marigolds can also help deter unwanted insects.</p>
+
+        <h2 class="section-header">4. Harvesting and Maintenance</h2>
+        <p>Harvest summer vegetables like tomatoes, cucumbers, and zucchinis when ripe to encourage continued production. Regular pruning and deadheading flowers can keep your plants healthy and promote new growth.</p>
+
+        <h2 class="section-header">5. Creating Shade for Sensitive Plants</h2>
+        <p>Protect sensitive plants from harsh sunlight by using shade cloths or creating natural shade structures with taller plants or trellises.</p>
+
+        <h2 class="section-header">6. Sustainability Practices</h2>
+        <p>Install rain barrels to collect rainwater for your garden, reducing water usage and conserving resources. Compost your garden waste to create nutrient-rich soil for future planting.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Native Plants of Canada. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
