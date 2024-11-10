@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04a7c9d7-2c48-4748-a49e-5df9e141671e" name="Default Changelist" comment="summer title">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/map.html" afterDir="false" />
+    <list default="true" id="04a7c9d7-2c48-4748-a49e-5df9e141671e" name="Default Changelist" comment="added the toronto farms page">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/indoor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/toronto-farm.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/toronto.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731259543295</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added the toronto farms page">
+      <created>1731259884050</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1731259884050</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added the toronto farms page">
+      <created>1731259890360</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731259890360</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added the recipes pages" />
     <MESSAGE value="summer title" />
-    <option name="LAST_COMMIT_MESSAGE" value="summer title" />
+    <MESSAGE value="added the toronto farms page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the toronto farms page" />
   </component>
 </project>
