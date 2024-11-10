@@ -1,10 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community - Native Plants of Canada</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            margin: 0;
+            padding-top: 60px; /* Adjust for fixed nav */
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #264653;
+            padding: 10px;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            justify-content: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        header {
+            text-align: center;
+            background-color: #2a9d8f;
+            color: white;
+            padding: 20px 0;
+        }
+        .community-section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .post {
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+        }
+        .post h3 {
+            margin-top: 0;
+            color: #2a9d8f;
+        }
+        .post p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .post button {
+            background-color: #2a9d8f;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .post button:hover {
+            background-color: #21867a;
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #264653;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="indoor.html">Indoor</a></li>
+            <li>
+                <a href="#">Season</a>
+                <ul>
+                    <li><a href="spring.html">Spring</a></li>
+                    <li><a href="summer.html">Summer</a></li>
+                    <li><a href="fall.html">Fall</a></li>
+                    <li><a href="winter.html">Winter</a></li>
+                </ul>
+            </li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="community.html">Community</a></li>
+        </ul>
+    </nav>
 
-</body>
-</html>
+    <header>
+        <h1>Community Discussions</h1>
+    </header>
+
+    <section class="community-section">
+        <div class="post">
+            <h3>Favorite Native Plants for Spring</h3>
+            <p><strong>Posted by:</strong> Sarah W.</p>
+            <p>I love seeing trilliums bloom in the spring. They bring such a beautiful touch to the forest floors. What are your favorite native plants for spring?</p>
+            <button onclick="alert('Join the discussion!')">Comment</button>
+        </div>
+        
+        <div class="post">
+            <h3>How to Start Your Indoor Herb Garden</h3>
+            <p><strong>Posted by:</strong> Mike R.</p>
+            <p>I just set up my indoor herb garden and wanted to share tips on the best native herbs to grow indoors. Does anyone have tips or questions?</p>
+            <button onclick="alert('Join the discussion!')">Comment</button>
+        </div>
+        
+        <div class="post">
+            <h3>Community Plant Swap Event</h3>
+            <p><strong>Posted by:</strong> Anna L.</p>
+            <p>Hey everyone! We're organizing a plant swap event next weekend at the community center. Bring your favorite native plants to exchange and share with fellow enthusiasts!</p>
+            <button onclick="alert('Join the discussion!')">Comment</button>
+        </div>
+    </section>
+
+    <footer>
+    
+        <p>&copy; 2024 Native Plants of Canada. All right</p>
+   </footer>
