@@ -91,3 +91,9 @@ footer {
     position: relative;
     font-size: 12px;
 }
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.6; /* Optional: Adjust for readability */
+}
