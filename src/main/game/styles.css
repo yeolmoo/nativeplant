@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url('day.png'); /* Initial background image */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease-in-out; /* Smooth transition */
+}
+
+#letterPanel {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.letter {
+    font-size: 2rem;
+    color: #ffffff;
+    transition: color 0.5s ease;
+    margin-right: 10px;
+}
+
+#locationDetails {
+    text-align: center;
+}
+
+#locationImage {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border: 7px solid black;
+}
+
+button {
+    padding: 15px 30px;      /* Increase padding for larger button */
+    font-size: 20px;         /* Increase font size */
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 5px;      /* Optional: Add rounded corners for a smoother look */
+    background-color: #f0f0f0; /* Optional: Change background color */
+    transition: transform 0.2s ease; /* Optional: Smooth scaling on hover */
+}
+
+button:hover {
+    transform: scale(1.1);   /* Optional: Make the button slightly bigger on hover */
+}
+
+
+#locationName {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+#nativePlants, #farmerGrownPlants {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #264653;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav li:hover > ul {
+    display: block;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #264653;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul ul li {
+    margin: 5px 0;
+}
+
+#nativePlants, #farmerGrownPlants, #locationTypeOfRegion,
+#locationWaterScarcity, #locationPestRisk, #locationSoilHealth, #locationTip {
+    /* Ensure consistency in appearance */
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+        display: inline-block;  /* This makes the background only cover the text */
+
+}

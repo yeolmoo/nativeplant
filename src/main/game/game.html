@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Locations & Plants</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<nav>
+    <ul>
+        <li><a href="../webapp/index.html">Home</a></li>
+        <li><a href="../webapp/map.html">Map</a></li>
+        <li><a href="../webapp/indoor.html">Indoor</a></li>
+        <li>
+            <a href="#">Season</a>
+            <ul>
+                <li><a href="../webapp/spring.html">Spring</a></li>
+                <li><a href="../webapp/summer.html">Summer</a></li>
+                <li><a href="../webapp/fall.html">Fall</a></li>
+                <li><a href="../webapp/winter.html">Winter</a></li>
+            </ul>
+        </li>
+        <li><a href="../webapp/recipes.html">Recipes</a></li>
+        <li><a href="../webapp/community.html">Community</a></li>
+        <li><a href="game.html">Play the Game</a></li>
+    </ul>
+</nav>
+
+
+
+<body>
+    <div id="letterPanel">
+        <span class="letter" id="h">H</span>
+        <span class="letter" id="e">E</span>
+        <span class="letter" id="l">L</span>
+        <span class="letter" id="l2">L</span>
+        <span class="letter" id="o">O</span>
+        <span class="letter" id="w">W</span>
+        <span class="letter" id="o2">O</span>
+        <span class="letter" id="r">R</span>
+        <span class="letter" id="l3">L</span>
+        <span class="letter" id="d">D</span>
+    </div>
+
+
+
+    <button id="locationBtn">Press here!</button>
+
+    <div id="locationDetails">
+    <div id="locationName"> Show me around the 🌍️ </div>
+<img id="locationImage" src="world.webp" alt="Location Image" style="width: 300px; height: 200px; object-fit: cover;" />
+        <p id="nativePlants"></p>
+        <p id="farmerGrownPlants"></p>
+        <p id="locationTypeOfRegion"></p>
+    <p id="locationWaterScarcity"></p>
+    <p id="locationPestRisk"></p>
+    <p id="locationSoilHealth"></p>
+    <p id="locationTip"></p>
+    </div>
+
+<img id="moonIcon" src="sunmoon.png" alt="Moon Icon"
+     style="cursor: pointer; width: 50px; height: 50px; position: fixed; top: 40px; right: 10px;" />
+
+
+    <script src="script.js"></script>
+</body>
+</html>
