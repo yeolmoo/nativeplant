@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04a7c9d7-2c48-4748-a49e-5df9e141671e" name="Default Changelist" comment="added the game which prints hello world over complicatedly">
+    <list default="true" id="04a7c9d7-2c48-4748-a49e-5df9e141671e" name="Default Changelist" comment="added tips and more info for each region">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731262656065</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added tips and more info for each region">
+      <created>1731263980592</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731263980592</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added tips and more info for each region">
+      <created>1731264040736</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731264040736</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +173,7 @@
     <MESSAGE value="fixed the heading on the main page" />
     <MESSAGE value="fixed the bullets for the recipes" />
     <MESSAGE value="added the game which prints hello world over complicatedly" />
-    <option name="LAST_COMMIT_MESSAGE" value="added the game which prints hello world over complicatedly" />
+    <MESSAGE value="added tips and more info for each region" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tips and more info for each region" />
   </component>
 </project>
