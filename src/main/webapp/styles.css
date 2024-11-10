@@ -80,3 +80,8 @@ footer {
     font-size: 12px;
     flex-shrink: 0; /* Prevent footer from shrinking */
 }
+.ingredients, .instructions {
+    text-align: justify;
+    margin: 0 auto;  /* Centers them horizontally within their container */
+    line-height: 1.6;  /* Adds space between lines for better readability */
+}
